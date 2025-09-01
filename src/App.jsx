@@ -161,13 +161,10 @@ function App() {
               <p className="text-lg text-gray-700 mb-6">
                 Download my complete resume to learn more about my experience, education, and technical skills.
               </p>
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg">
-                <Download className="w-5 h-5 mr-2" />
+              <a href="/resume/BeaconResume.pdf" download className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg inline-flex items-center gap-2">
+                <Download className="w-5 h-5" />
                 Download Resume (PDF)
-              </Button>
-              <p className="text-sm text-gray-600 mt-4">
-                Resume will be available once uploaded
-              </p>
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -240,6 +237,4 @@ function App() {
 
 export default App
 
-
-// Small change to force redeployment
 
